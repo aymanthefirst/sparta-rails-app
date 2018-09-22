@@ -23,8 +23,4 @@ document.getElementById('pointlessButton').onclick = function fun() {
       document.getElementById('pointlessBox').style.display = "none";
    }, 3000);
 };
-
-
-
-
 }

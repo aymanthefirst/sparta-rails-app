@@ -16,9 +16,11 @@
     <%= form.text_field :date %>
   </div>
 
+
+
   <div class="field">
-    <%= form.label :room %>
-    <%= form.number_field :room_id %>
+      <%= collection_select(:reservation, :room_id, @rooms, :id, :number) %>
+      <%= form.label :room_id %>
   </div>
 
   <div class="actions">

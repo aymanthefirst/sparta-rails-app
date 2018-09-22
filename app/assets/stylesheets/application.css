@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+  background-image: url(hotel.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+}
+.box {
+    background-color: #59cad0;
+    border: 2px solid black;
+    /* width: 50%; */
+    padding: 10px;
+
+}
+#navbar {
+    background-color: #92dc32;
+
+    width: 30%;
+    border: 2px solid black;
+    padding: 10px;
+    Margin:0 auto;
+    Display: block;
+}
+#spacer1{
+    height: 200px;
+}
+button {
+    background-color: #a28281;
+    /* color: white; */
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
+    /* float: right; */
+}
+
+#pointlessBox{
+  height:300px;
+  width: 50%;
+  display: none;
+  position: absolute;
+  margin-left: 30%;
+  text-align: center;
+
+
+}

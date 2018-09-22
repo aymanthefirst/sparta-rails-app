@@ -4,10 +4,8 @@ one:
   date: MyString
   user_id: 1
   room_id: 1
-  id: 1
 
 two:
   date: MyString
   user_id: 1
   room_id: 1
-  id: 1

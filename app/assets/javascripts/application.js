@@ -14,3 +14,17 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+
+window.onload = function () {
+document.getElementById('pointlessButton').onclick = function fun() {
+  document.getElementById('pointlessBox').style.display = "block";
+  setTimeout(function(){
+      document.getElementById('pointlessBox').style.display = "none";
+   }, 3000);
+};
+
+
+
+
+}
